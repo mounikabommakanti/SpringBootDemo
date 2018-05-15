@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HeadLibraryImpl implements Head_Library {
+public class HeadLibraryImpl implements HeadLibrary {
 		@RequestMapping("/getBook")
 		@ResponseBody
 		
@@ -13,6 +13,7 @@ public class HeadLibraryImpl implements Head_Library {
 
 			return "The Completer Reference to Java";
 		}
+	
 
 
 }
